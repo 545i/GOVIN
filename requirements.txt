@@ -1,0 +1,6 @@
+DrissionPage>=4.0.0
+requests>=2.25.0
+python-dotenv>=0.19.0
+PyQt5>=5.15.0
+pynput>=1.7.0
+pygetwindow>=0.0.9 
