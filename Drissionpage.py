@@ -11,7 +11,6 @@ import json # 新增
 os.makedirs("douyin", exist_ok=True)
 load_dotenv()
 
-# 簡化的 headers
 headers = {"cookie": os.getenv("DOUYIN_COOKIE"),
     "referer":os.getenv("DOUYIN_REFERER"),
     "user-agent":os.getenv("DOUYIN_UA")}

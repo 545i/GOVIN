@@ -5,6 +5,7 @@ from PyQt5.QtCore import Qt, QThread, pyqtSignal, QPoint
 from PyQt5.QtGui import QTextCursor, QTextCharFormat, QColor
 import Drissionpage
 
+
 class CrawlerThread(QThread):
     progress_signal = pyqtSignal(str)
     finished_signal = pyqtSignal()
